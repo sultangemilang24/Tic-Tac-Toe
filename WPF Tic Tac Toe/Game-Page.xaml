@@ -115,17 +115,17 @@
             <Button Style="{DynamicResource ButtonStyle2}" Content="Score Reset" HorizontalAlignment="Left" Height="39" Margin="0,51,0,0" VerticalAlignment="Top" Width="159" Background="#FF1D3557" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas"/>
         </Grid>
 
-        <Grid HorizontalAlignment="Center" Height="87" VerticalAlignment="Center" Margin="18,424,304,225">
-            <Button Style="{DynamicResource ButtonStyle2}" Content="X =" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="92" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="23" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="10,1,1,1"/>
-            <Button Style="{DynamicResource ButtonStyle2}" Content="Y =" HorizontalAlignment="Left" Height="39" Margin="0,48,0,0" VerticalAlignment="Top" Width="92" Background="#FF1D3557" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="10,1,1,1"/>
+        <Grid HorizontalAlignment="Left" Height="93" VerticalAlignment="Top" Margin="22,422,0,0" Width="97">
+            <Button Style="{DynamicResource ButtonStyle2}" Content="X =" HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="92" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="23" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="10,1,1,1"/>
+            <Button Style="{DynamicResource ButtonStyle2}" Content="Y =" HorizontalAlignment="Center" Height="39" Margin="0,48,0,0" VerticalAlignment="Top" Width="92" Background="#FF1D3557" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="10,1,1,1"/>
         </Grid>
-        
-        <Button HorizontalAlignment="Left" Height="50" Margin="22,668,0,0" VerticalAlignment="Top" Width="42" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="2">
-            <Image Source="img/back.png" Stretch="Fill"/>
+
+        <Button x:Name="backButton" HorizontalAlignment="Left" Height="50" Margin="22,668,0,0" VerticalAlignment="Top" Width="42" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="2" Click="backButton_clicked">
+            <Image Source="/img/back.png" Stretch="Fill"/>
         </Button>
 
-        <Button HorizontalAlignment="Left" Height="54" Margin="339,664,0,0" VerticalAlignment="Top" Width="53                 " BorderBrush="{x:Null}" Background="{x:Null}">
-            <Image Source="img/setting.png" Stretch="Fill"/>
+        <Button HorizontalAlignment="Left" Height="54" Margin="339,664,0,0" VerticalAlignment="Top" Width="53                 " BorderBrush="{x:Null}" Background="{x:Null}" Click="settingsButton_Clicked">
+            <Image Source="/img/setting.png" Stretch="Fill"/>
         </Button>
         <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Height="37" Margin="150,672,0,0" TextWrapping="Wrap" Text="TicTacToe" VerticalAlignment="Top" Width="113" Background="#FF1D3557" Foreground="#FFF9FEFF" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" SelectionTextBrush="{x:Null}" FontFamily="Consolas" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 

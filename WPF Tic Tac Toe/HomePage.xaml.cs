@@ -20,9 +20,24 @@ namespace WPF_Tic_Tac_Toe
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Game_Page game_Page = new Game_Page();
+            this.Close();
+            game_Page.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Setting_Page setting_Page = new Setting_Page();
+            this.Close();
+            setting_Page.Show();
         }
     }
 }

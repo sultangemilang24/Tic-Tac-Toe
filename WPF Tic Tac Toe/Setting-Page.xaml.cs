@@ -23,5 +23,12 @@ namespace WPF_Tic_Tac_Toe
         {
             InitializeComponent();
         }
+
+        private void backButton_Clicked(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            this.Close();
+            mainWindow.Show();
+        }
     }
 }

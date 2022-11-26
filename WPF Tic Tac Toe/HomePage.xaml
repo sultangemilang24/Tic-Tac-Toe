@@ -65,9 +65,9 @@
     </Window.Resources>
     <Grid>
         <Grid HorizontalAlignment="Left" Height="99" VerticalAlignment="Top" Width="160" Margin="128,433,0,0">
-            <Button Style="{DynamicResource ButtonStyle2}" Content="New Game" HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="159" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas"/>
-            <Button Style="{DynamicResource ButtonStyle2}" Content="Setting" HorizontalAlignment="Center" Height="39" Margin="0,60,0,0" VerticalAlignment="Top" Width="159" Background="#FF1D3557" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas"/>
+            <Button Style="{DynamicResource ButtonStyle2}" Content="New Game" HorizontalAlignment="Center" Height="39" VerticalAlignment="Top" Width="159" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" Click="Button_Click"/>
+            <Button Style="{DynamicResource ButtonStyle2}" Content="Setting" HorizontalAlignment="Center" Margin="0,60,0,0" Width="160" Background="#FF1D3557" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" Click="Button_Click_1"/>
         </Grid>
-        <Image Margin="89,126,0,0" Source="img/logo.png" Stretch="Fill" Width="239" Height="242" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1"/>
+        <Image Margin="89,126,0,0" Source="/img/logo.png" Stretch="Fill" Width="239" Height="242" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1"/>
     </Grid>
 </Window>

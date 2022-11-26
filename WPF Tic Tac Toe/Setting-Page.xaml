@@ -65,16 +65,20 @@
     </Window.Resources>
     <Grid>
         <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Margin="24,24,0,0" Width="42" Height="50">
-            <Image Source="/img/back.png" Stretch="Fill"/>
+            <Button HorizontalAlignment="Left" Height="54" Margin="0,0,0,0" VerticalAlignment="Top" Width="53                 " BorderBrush="{x:Null}" Background="{x:Null}" Click="backButton_Clicked">
+                <Image Source="/img/back.png" Stretch="Fill"/>
+            </Button>
+
+
         </Grid>
-        <Grid HorizontalAlignment="Center" Height="83" Margin="139,319,139,0" VerticalAlignment="Top" Width="136">
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="160">
+        <Grid HorizontalAlignment="Center" Height="83" Margin="139,319,139,0" VerticalAlignment="Top" Width="auto">
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto">
                 <Button Style="{DynamicResource ButtonStyle2}" Content="Music" HorizontalAlignment="Center" Height="39" VerticalAlignment="Center" Width="136" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="16,1,1,1"/>
-                <Image Source="/img/music.png/" Width="28" Height="28" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,25,0"/>
+                <Image Source="/img/music.png/" Width="28" Height="28" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="98,0,0,0"/>
             </Grid>
-            <Grid HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" Width="160">
+            <Grid HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" Width="auto">
                 <Button Style="{DynamicResource ButtonStyle2}" Content="Sound" HorizontalAlignment="Center" Height="39" VerticalAlignment="Center" Width="136" Background="#FFFF2F41" BorderBrush="{x:Null}" Foreground="#FFF9FEFF" FontSize="24" FontFamily="Consolas" HorizontalContentAlignment="Left" Padding="16,1,1,1"/>
-                <Image Source="/img/sound.png/" Width="30" Height="27" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,25,0"/>
+                <Image Source="/img/sound.png/" Width="30" Height="27" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="96,0,0,0"/>
             </Grid>
         </Grid>
     </Grid>
